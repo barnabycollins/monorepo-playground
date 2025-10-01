@@ -1,10 +1,10 @@
 /**
- * JSDoc stuff here
+ * Addition JSDoc stuff here
  */
 export function add(
-  /** JSDoc here too */
+  /** Parameter JSDoc */
   a: number,
-  /** More JSDoc */
+  /** More parameter JSDOC */
   b: number,
 ) {
   console.log(`adding ${a} and ${b}`);

@@ -9,7 +9,8 @@
     "test": "npx nx run-many -t test"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "integration-tests/*"
   ],
   "devDependencies": {
     "@nx/eslint": "21.6.2",

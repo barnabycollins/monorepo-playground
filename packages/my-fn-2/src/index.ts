@@ -1,10 +1,10 @@
 /**
- * JSDoc stuff here
+ * Multiplication JSDoc stuff here
  */
 export function mult(
-  /** JSDoc here too */
+  /** Parameter JSDoc */
   a: number,
-  /** More JSDoc */
+  /** More parameter JSDOC */
   b: number,
 ) {
   console.log(`multiplying ${a} and ${b}`);
