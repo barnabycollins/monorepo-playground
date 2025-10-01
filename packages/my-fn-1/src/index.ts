@@ -7,7 +7,7 @@ export function add(
   /** More parameter JSDOC */
   b: number,
 ) {
-  console.log(`adding ${a} and ${b} :D`);
+  console.log(`adding ${a} and ${b}! :D`);
 
   return a + b;
 }
