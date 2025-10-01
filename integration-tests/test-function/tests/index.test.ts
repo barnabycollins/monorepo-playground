@@ -7,5 +7,7 @@ describe("integration tests", () => {
     const finalGuy = add(mult(4, 8), mult(3, -2));
 
     expect(finalGuy).toEqual(4 * 8 + 3 * -2);
+
+    console.log("all done!");
   });
 });
