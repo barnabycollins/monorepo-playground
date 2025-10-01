@@ -1,3 +1,13 @@
+## 1.1.0 (2025-10-01)
+
+### 🚀 Features
+
+- **my-fn-1:** Better JSDoc ([47ee8b7](https://github.com/barnabycollins/monorepo-playground/commit/47ee8b7))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 1.0.3 (2025-10-01)
 
 ### 🩹 Fixes
