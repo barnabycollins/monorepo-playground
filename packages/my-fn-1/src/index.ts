@@ -8,5 +8,6 @@ export function add(
   b: number,
 ) {
   console.log(`adding ${a} and ${b} :D`);
+
   return a + b;
 }
