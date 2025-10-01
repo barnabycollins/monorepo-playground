@@ -1,3 +1,13 @@
+## 3.0.1 (2025-10-01)
+
+### 🩹 Fixes
+
+- **my-fn-2:** Make sure multiply function has a smiley too ([0752433](https://github.com/barnabycollins/monorepo-playground/commit/0752433))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 # 3.0.0 (2025-10-01)
 
 ### 🚀 Features
