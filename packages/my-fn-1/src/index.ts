@@ -1,5 +1,5 @@
 /**
- * Addition JSDoc stuff here
+ * Addition function JSDoc stuff here
  */
 export function add(
   /** Parameter JSDoc */
