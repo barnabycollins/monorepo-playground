@@ -7,6 +7,6 @@ export function mult(
   /** More parameter JSDOC */
   b: number,
 ) {
-  console.log(`multiplying ${a} and ${b}!!!!`);
+  console.log(`multiplying ${a} and ${b}!!!`);
   return a * b;
 }
