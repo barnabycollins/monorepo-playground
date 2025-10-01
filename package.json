@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-playground",
+  "name": "@bc-nx-test-org/monorepo-playground",
   "version": "1.0.0",
   "description": "",
   "type": "module",
