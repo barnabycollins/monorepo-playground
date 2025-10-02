@@ -1,3 +1,7 @@
+## 3.1.1 (2025-10-02)
+
+This was a version bump only for @bc-nx-test-org/my-fn-2 to align it with other projects, there were no code changes.
+
 ## 3.1.0 (2025-10-02)
 
 This was a version bump only for @bc-nx-test-org/my-fn-2 to align it with other projects, there were no code changes.
