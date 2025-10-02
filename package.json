@@ -12,6 +12,10 @@
     "packages/*",
     "integration-tests/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barnabycollins/monorepo-playground.git"
+  },
   "devDependencies": {
     "@nx/eslint": "21.6.2",
     "@nx/js": "^21.6.2",
