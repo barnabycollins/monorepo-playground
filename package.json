@@ -15,9 +15,6 @@
   "devDependencies": {
     "@nx/eslint": "21.6.2",
     "@nx/js": "^21.6.2",
-    "@swc-node/register": "~1.9.1",
-    "@swc/core": "~1.5.7",
-    "@swc/helpers": "~0.5.11",
     "eslint": "^9.36.0",
     "jiti": "^2.6.1",
     "nx": "21.6.2",
