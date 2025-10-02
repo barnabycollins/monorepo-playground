@@ -4,6 +4,8 @@ on:
       - main
 
 permissions:
+  # id-token required for npm OIDC
+  # https://docs.npmjs.com/trusted-publishers#step-2-configure-your-cicd-workflow
   id-token: write
   contents: write
 
@@ -25,6 +27,7 @@ jobs:
         with:
           node-version: 20
           cache: "npm"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install packages
         run: npm ci
