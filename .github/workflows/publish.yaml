@@ -43,7 +43,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # https://github.com/nrwl/nx/issues/22066#issuecomment-2576366862
           npm_config_legacy_peer_deps: false
+          npm_config_loglevel: silly
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Actions"
-          npx nx release --yes --verbose
+          npx nx release --yes
