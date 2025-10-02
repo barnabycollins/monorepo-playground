@@ -1,0 +1,37 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the main branch
+        uses: actions/checkout@v4
+        # Only a single commit is fetched by default
+        # we need full repo history with tags, so we are setting fetch-depth: 0
+        with:
+          fetch-depth: 0
+          filter: tree:0
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Sets the base and head SHAs for the nx affected commands in CI
+        uses: nrwl/nx-set-shas@v4
+
+      - name: Build affected libs
+        run: npx nx affected -t build
+
+      - name: Run nx release
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+          npx nx release --yes
