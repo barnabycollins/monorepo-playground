@@ -1,6 +1,6 @@
 {
   "name": "@bc-nx-test-org/my-fn-1",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "",
   "type": "module",
   "main": "dist/index.js",
