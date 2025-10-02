@@ -4,6 +4,11 @@
   "description": "",
   "type": "module",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barnabycollins/monorepo-playground.git",
+    "directory": "integration-tests/test-function"
+  },
   "scripts": {
     "test": "npx vitest run"
   },

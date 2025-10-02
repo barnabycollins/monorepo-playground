@@ -4,6 +4,11 @@
   "description": "",
   "type": "module",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barnabycollins/monorepo-playground.git",
+    "directory": "packages/my-fn-2"
+  },
   "scripts": {
     "build": "npx tsc",
     "test": "npx vitest run"
