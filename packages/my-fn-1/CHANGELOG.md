@@ -1,3 +1,13 @@
+## 2.2.0 (2025-10-02)
+
+### 🚀 Features
+
+- new smiley ([48e2048](https://github.com/barnabycollins/monorepo-playground/commit/48e2048))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 2.1.3 (2025-10-02)
 
 This was a version bump only for @bc-nx-test-org/my-fn-1 to align it with other projects, there were no code changes.
