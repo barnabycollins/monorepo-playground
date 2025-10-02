@@ -1,3 +1,13 @@
+## 3.1.8 (2025-10-02)
+
+### 🩹 Fixes
+
+- set repo key in packages ([2331a55](https://github.com/barnabycollins/monorepo-playground/commit/2331a55))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 3.1.7 (2025-10-02)
 
 This was a version bump only for @bc-nx-test-org/my-fn-2 to align it with other projects, there were no code changes.
