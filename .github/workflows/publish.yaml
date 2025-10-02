@@ -3,9 +3,14 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+  contents: write
+
 jobs:
-  main:
+  publish:
     runs-on: ubuntu-latest
+    environment: npm-publish
     steps:
       - name: Checkout the main branch
         uses: actions/checkout@v4
