@@ -1,8 +1,8 @@
 # monorepo-playground
 
 This repository is intended to serve as an MVP implementation of a TypeScript
-monorepo using Nx, and building to ESM JS modules with the native TypeScript
-compiler (tsc).
+monorepo using Nx. Packages are built as ESM JS modules with the native
+TypeScript compiler (tsc) and published to npm.
 
 ## Components in this repository
 
@@ -37,13 +37,13 @@ The configuration for each package looks like this:
 
 </details>
 
-## Not implemented
+## Not in scope
 
-These jobs are expected to be fairly simple but were deemed to be out of scope
-for this spike.
+These jobs are expected to be fairly simple but were not included in this spike.
 
 - Pruning source & unit test files before publishing packages
 - Pre-commit checks
+- Validating that the published npm packages work properly when imported
 
 ## Notes
 
