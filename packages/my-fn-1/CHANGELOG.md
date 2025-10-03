@@ -1,3 +1,13 @@
+## 2.3.0 (2025-10-03)
+
+### 🚀 Features
+
+- Update smiley faces ([eef629f](https://github.com/barnabycollins/monorepo-playground/commit/eef629f))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 2.2.6 (2025-10-02)
 
 This was a version bump only for @bc-nx-test-org/my-fn-1 to align it with other projects, there were no code changes.
