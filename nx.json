@@ -16,12 +16,14 @@
     "projects": ["packages/*"],
     "projectsRelationship": "independent",
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "fallbackCurrentVersionResolver": "disk"
     },
     "changelog": {
       "projectChangelogs": {
         "createRelease": "github"
-      }
+      },
+      "automaticFromRef": true
     }
   },
   "plugins": [
