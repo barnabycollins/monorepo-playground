@@ -1,0 +1,20 @@
+{
+  "name": "@bc-nx-test-org/service",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnabycollins/monorepo-playground.git",
+    "directory": "packages/service"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx vitest run"
+  },
+  "dependencies": {
+    "@bc-nx-test-org/logger": "file:../logger"
+  }
+}
