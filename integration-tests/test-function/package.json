@@ -6,7 +6,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/barnabycollins/monorepo-playground.git",
+    "url": "git+https://github.com/barnabycollins/monorepo-playground.git",
     "directory": "integration-tests/test-function"
   },
   "scripts": {
