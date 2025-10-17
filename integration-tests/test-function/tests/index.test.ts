@@ -1,5 +1,5 @@
-import { add } from "@my-org/my-fn-1";
-import { mult } from "@my-org/my-fn-2";
+import { add } from "@bc-nx-test-org/my-fn-1";
+import { mult } from "@bc-nx-test-org/my-fn-2";
 import { describe, expect, test } from "vitest";
 
 describe("integration tests", () => {
