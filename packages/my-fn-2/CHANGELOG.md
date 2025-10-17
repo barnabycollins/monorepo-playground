@@ -1,3 +1,13 @@
+# 4.0.0 (2025-10-17)
+
+### 🩹 Fixes
+
+- correct repo url ([a945aa0](https://github.com/barnabycollins/monorepo-playground/commit/a945aa0))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 3.2.1 (2025-10-17)
 
 ### 🩹 Fixes
