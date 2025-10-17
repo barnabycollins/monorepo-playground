@@ -4,6 +4,16 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      module_name:
+        type: string
+        description: The name of the module to release
+        required: true
+      first_release:
+        type: boolean
+        description: Is this the first release of the module?
+        required: true
 
 permissions:
   # id-token required for npm OIDC
@@ -56,4 +66,4 @@ jobs:
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Actions"
-          npx nx release --yes
+          npx nx release --yes ${{ github.event.inputs.first_release == 'true' && '--first-release' || '' }} --projects=${{ github.event.inputs.module_name }}
