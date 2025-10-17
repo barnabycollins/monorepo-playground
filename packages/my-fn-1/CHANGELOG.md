@@ -1,3 +1,13 @@
+## 2.3.1 (2025-10-17)
+
+### 🩹 Fixes
+
+- package.json config ([8c8a712](https://github.com/barnabycollins/monorepo-playground/commit/8c8a712))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 2.3.0 (2025-10-03)
 
 ### 🚀 Features
