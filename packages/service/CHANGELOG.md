@@ -1,3 +1,13 @@
+## 1.0.1 (2025-10-17)
+
+### 🩹 Fixes
+
+- Use semver to reference logger ([de11f01](https://github.com/barnabycollins/monorepo-playground/commit/de11f01))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 # 1.0.0 (2025-10-17)
 
 ### 🚀 Features
