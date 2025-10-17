@@ -15,6 +15,6 @@
     "test": "npx vitest run"
   },
   "dependencies": {
-    "@bc-nx-test-org/logger": "file:../logger"
+    "@bc-nx-test-org/logger": "^1.0.0"
   }
 }
