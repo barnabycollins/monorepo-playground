@@ -1,3 +1,13 @@
+## 4.2.0 (2025-10-24)
+
+### 🚀 Features
+
+- Important change ([63945b9](https://github.com/barnabycollins/monorepo-playground/commit/63945b9))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 4.1.0 (2025-10-24)
 
 ### 🚀 Features
