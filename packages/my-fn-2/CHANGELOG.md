@@ -1,3 +1,13 @@
+## 4.1.0 (2025-10-24)
+
+### 🚀 Features
+
+- Remove exclamation mark ([4a155ed](https://github.com/barnabycollins/monorepo-playground/commit/4a155ed))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 # 4.0.0 (2025-10-17)
 
 ### 🩹 Fixes
