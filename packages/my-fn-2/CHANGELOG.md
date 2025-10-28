@@ -1,3 +1,13 @@
+## 4.2.1 (2025-10-28)
+
+### 🩹 Fixes
+
+- First attempt at using tshy to export for CJS + ESM ([512692c](https://github.com/barnabycollins/monorepo-playground/commit/512692c))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 4.2.0 (2025-10-24)
 
 ### 🚀 Features

@@ -1,3 +1,17 @@
+## 1.0.2 (2025-10-28)
+
+### 🩹 Fixes
+
+- First attempt at using tshy to export for CJS + ESM ([512692c](https://github.com/barnabycollins/monorepo-playground/commit/512692c))
+
+### 🧱 Updated Dependencies
+
+- Updated @bc-nx-test-org/logger to 1.0.1
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 1.0.1 (2025-10-17)
 
 ### 🩹 Fixes

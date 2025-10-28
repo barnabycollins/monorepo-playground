@@ -1,6 +1,6 @@
 {
   "name": "@bc-nx-test-org/service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "type": "module",
   "main": "./dist/commonjs/index.js",
@@ -19,7 +19,7 @@
     "test": "npx vitest run"
   },
   "dependencies": {
-    "@bc-nx-test-org/logger": "^1.0.0"
+    "@bc-nx-test-org/logger": "^1.0.1"
   },
   "tshy": {
     "exports": {
