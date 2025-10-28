@@ -54,7 +54,10 @@ jobs:
         uses: nrwl/nx-set-shas@v4
 
       - name: Build affected libs
-        run: npx nx affected -t build
+        run: npx nx affected -t prepare build
+
+      - name: Fail if we have git changes
+        run: git diff --quiet HEAD
 
       - name: Run nx release
         env:
