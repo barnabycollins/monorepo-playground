@@ -3,8 +3,8 @@
   "version": "3.0.1",
   "description": "",
   "type": "module",
-  "main": "./dist/commonjs/index.js",
-  "types": "./dist/commonjs/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "types": "./dist/cjs/index.d.ts",
   "files": [
     "dist"
   ],
@@ -14,15 +14,10 @@
     "directory": "packages/my-fn-1"
   },
   "scripts": {
-    "build": "npx tsc",
-    "prepare": "tshy",
+    "build:cjs": "npx tsc --module commonjs --outDir dist/cjs",
+    "build:esm": "npx tsc --module nodenext --outDir dist/esm",
+    "build": "npm run build:esm && npm run build:cjs",
     "test": "npx vitest run"
-  },
-  "tshy": {
-    "exports": {
-      "./package.json": "./package.json",
-      ".": "./src/index.ts"
-    }
   },
   "exports": {
     "./package.json": "./package.json",
@@ -32,8 +27,8 @@
         "default": "./dist/esm/index.js"
       },
       "require": {
-        "types": "./dist/commonjs/index.d.ts",
-        "default": "./dist/commonjs/index.js"
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
       }
     }
   },
