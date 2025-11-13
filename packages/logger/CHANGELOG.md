@@ -1,3 +1,13 @@
+## 1.1.0 (2025-11-13)
+
+### 🚀 Features
+
+- use bare tsc for dual packaging ([d5a0af6](https://github.com/barnabycollins/monorepo-playground/commit/d5a0af6))
+
+### ❤️ Thank You
+
+- Barnaby Collins @barnabycollins
+
 ## 1.0.1 (2025-10-28)
 
 ### 🩹 Fixes
